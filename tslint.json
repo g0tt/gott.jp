@@ -1,0 +1,36 @@
+{
+  "defaultSeverity": "error",
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-airbnb", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.{ts,tsx,js}",
+      "public/**/*.{ts,tsx,js}",
+      "gulpfile.js"
+    ]
+  },
+  "rules": {
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "prefer-array-literal": [true, { "allow-type-parameters": true }],
+    "import-name": false,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "no-conditional-assignment": false,
+    "prettier": [
+      true, {
+        "singleQuote": true,
+        "semi": true,
+        "printWidth": 80,
+        "trailingComma": "es5"
+      }
+    ]
+  }
+}

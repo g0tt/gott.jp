@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+}
+
+.content {
+    margin-right:15px;
+}
+
+dd .period {
+    color: #aaa;
+}
+
+dd .stars {
+    color: #e41236;
+}
+
+#topimg {
+    width:90vw;
+    height:auto;
+    max-width: 500px;
+}
+
+a {
+    color:gray;
+    outline:none;
+}
+
+a:hover {
+    text-decoration:none;
+    color:dodgerblue;
+}
+
+dt a {
+    color: #555;
+}

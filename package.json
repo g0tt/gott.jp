@@ -1,0 +1,33 @@
+{
+  "name": "gott.jp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.5.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.1.4",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --mode=development --content-base public/",
+    "lint": "tslint --project ."
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4",
+    "tslint": "^6.1.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "tslint-react": "^4.2.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
