@@ -12,7 +12,7 @@ dd .period {
 }
 
 dd .stars {
-    color: #e41236;
+    color: #ff4747;
 }
 
 #topimg {
@@ -22,13 +22,13 @@ dd .stars {
 }
 
 a {
-    color:gray;
+    color:#33a6b8;
     outline:none;
 }
 
 a:hover {
     text-decoration:none;
-    color:dodgerblue;
+    color: #2a8998;
 }
 
 dt a {

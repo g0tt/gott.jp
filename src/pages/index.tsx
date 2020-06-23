@@ -27,16 +27,26 @@ ReactDOM.render(
           periodStart="'19"
           periodEnd="'19"
         >
-          夏季インターン
+          2週間の夏季インターンに参加。
+          <br />
+          <a href="https://www.monst-dreamcompany.com/" target="_blank">
+            モンストドリームカンパニー
+          </a>{' '}
+          管理画面作成（Rails）。
         </ContentBlock>
         <ContentBlock
           title="株式会社ユニプロ"
           url="https://unipro.co.jp/"
           periodStart="'16"
+          periodEnd="'20"
         >
-          受託Webエンジニア。
-          <br />
-          TeXファイル検索システム改修，外貨両替機API・管理画面新規開発，MVNOサービスCRM機能追加，業界向けポータルサイト新規開発テックリードなど。
+          受託Web・アプリ開発。
+          <ul className="mt-0 mb-0" style={{ listStyle: 'square' }}>
+            <li>業務用iPadカメラアプリ（PM / API / 管理画面）</li>
+            <li>業界向けポータルサイト（テックリード）</li>
+            <li>MVNOサービスサイト</li>
+          </ul>
+          など。
         </ContentBlock>
         <ContentBlock
           title="株式会社GNEX"
@@ -44,34 +54,36 @@ ReactDOM.render(
           periodStart="'13"
           periodEnd="'16"
         >
-          自社サービス・受託Webエンジニア。
+          自社サービス・受託Web開発。
         </ContentBlock>
       </Content>
 
       <Content title="経験・技術">
-        <ContentBlock title="PHP" level="4">
-          特にセキュリティ上のリスクの高い決済・金融関係のロジックの実装経験あり。フレームワークはSlim，Laravel。
+        <ContentBlock title="TypeScript" level="4">
+          サーバサイドは Fastify, Express, Knex など。
+          <br />
+          フロントは React, Angular, Nuxt, jQuery など。
         </ContentBlock>
-        <ContentBlock title="JavaScript" level="3">
-          フロントは生JavaScript，jQuery，React，Angular，Vue。
-          サーバサイドは経験が浅いが，ExpressやFastifyの経験あり。
-        </ContentBlock>
-        <ContentBlock title="データベース" level="2">
-          MySQL，SQL
-          Serverの小規模なテーブル設計や，簡単な生クエリを書くことはできる。
+        <ContentBlock title="PHP" level="3">
+          　過去に決済・金融関係のロジックの実装経験あり。最近は使っていません。
+          <br />
+          フレームワークは Slim, Laravel。
         </ContentBlock>
         <ContentBlock title="インフラ" level="3">
-          AWS EC2，ELB，Elastic
-          Beanstalk，ECS，ECR，Lambda，Route53，S3サーバーレスなどの経験あり。
+          AWS EC2, ELB, Elastic Beanstalk, ECS, ECR, Lambda, Route53, S3 など。
           <br />
-          オンプレミスは，CentOSやUbuntuにてApache，nginx，BIND，Postfix，Dovecot，OpenVPN，L2TP/IPsecなどを構築。
+          オンプレミスは CentOS や Ubuntu にて Apache, nginx, BIND, Postfix,
+          Dovecot, OpenVPN, L2TP/IPsec などを構築・運用。
+        </ContentBlock>
+        <ContentBlock title="データベース" level="2">
+          MySQL, SQL Server の小〜中規模テーブル設計、データ投入など。
         </ContentBlock>
         <ContentBlock title="ネットワーク" level="2">
-          ネットワークスペシャリスト(2018/12)
+          ネットワークスペシャリスト（2018/12取得）。
           <br />
-          実務経験なし。
+          実務経験なし。自宅固定IPで遊んでいます。
         </ContentBlock>
-        <ContentBlock title="競技プログラミング" level="2">
+        <ContentBlock title="競技プログラミング" level="1">
           AtCoder緑→
           <a
             style={{ color: '#008000' }}
@@ -84,7 +96,7 @@ ReactDOM.render(
           C++を使用。
         </ContentBlock>
         <ContentBlock title="その他言語">
-          C，Java，Scala，Haskell，Python
+          C, Java, Scala, Haskell, Python, Rust, etc.
         </ContentBlock>
       </Content>
     </div>
