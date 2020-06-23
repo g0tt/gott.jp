@@ -18,5 +18,5 @@ phases:
       - yarn build
 artifacts:
   files:
-    - 'public/js/**/*'
-  name: bundle
+    - 'public/**/*'
+  name: public
