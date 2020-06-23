@@ -1,0 +1,22 @@
+version: 0.2
+
+proxy:
+  upload-artifacts: yes
+  logs: yes
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - npm i -g yarn
+  pre_build:
+    commands:
+      - yarn
+  build:
+    commands:
+      - yarn build
+artifacts:
+  files:
+    - 'public/js/**/*'
+  name: bundle
